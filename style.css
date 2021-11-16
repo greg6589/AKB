@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 400vh;
+}
+
+header {
+    color: white;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(160deg, rgba(0, 0, 0, 1) 30%, rgb(51, 51, 51) 100%);
+}
+
+.logo {
+    color: rgb(255, 167, 2);
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.logo h1 {
+    font-size: 40px;
+}
+
+.logo p {
+    margin-top: -5px;
+    letter-spacing: 2px;
+}
+
+.welcome {
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.welcome .wrapper {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10% 5%;
+}
+
+.welcome h2 {
+    font-size: 24px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.welcome p:nth-last-child(1) {
+    padding-top: 10px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10%;
+}
+
+.about p {
+    padding: 0 5% 10% 5%;
+}
+
+.aboutDes {
+    background-image: url(img/car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.aboutDes h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10%;
+}
+
+.aboutDes p {
+    padding: 0 5% 10% 5%;
+    font-size: 16px;
+}
+
+.aboutDesWrap {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.carImg {
+    height: 20vh;
+    width: 100%;
+
+}
+
+.services {
+    text-align: center;
+}
+
+.services h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10%;
+
+}
+
+.services h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 2%;
+
+}
+
+.services p {
+    font-size: 16px;
+}
+
+.servicesElm {
+    padding: 2% 5%;
+    margin-bottom: 5%;
+}
+
+.servicesElm .fas {
+    font-size: 46px;
+    color: rgb(255, 167, 2);
+}
