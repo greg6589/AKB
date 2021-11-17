@@ -138,9 +138,68 @@ header {
 .servicesElm {
     padding: 2% 5%;
     margin-bottom: 5%;
+    height: 30vh;
+    overflow: hidden;
+
 }
 
 .servicesElm .fas {
     font-size: 46px;
     color: rgb(255, 167, 2);
+}
+
+.servicesElm button {
+    margin-bottom: 50px;
+}
+
+.contact {
+    text-align: center;
+    color: white;
+    /* background: rgb(0, 0, 0);
+    background: linear-gradient(160deg, rgba(0, 0, 0, 1) 30%, rgb(51, 51, 51) 100%); */
+    background-color: black;
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 5%;
+
+}
+
+.contact p {
+    font-size: 16px;
+    padding-bottom: 5%;
+}
+
+.contact button {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    margin: 3% 5%;
+}
+
+.contact button a {
+    opacity: 0;
+    padding: 20px;
+}
+
+.call {
+    background-image: url(img/call.png)
+}
+
+.whatsapp {
+    background-image: url(img/whatsapp.png);
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
 }
