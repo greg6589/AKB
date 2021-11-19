@@ -175,6 +175,16 @@ header {
     }
 }
 
+@media (min-width: 411px) and (orientation: portrait) {
+    .servicesElm {
+        height: 27vh;
+    }
+
+    .active {
+        height: 65vh;
+    }
+}
+
 /* CALL SECTION */
 
 .callUs {
