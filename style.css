@@ -195,6 +195,13 @@ header {
     }
 }
 
+@media (min-width: 411px) and (height: 823px) {
+    .servicesElm {
+        height: 24vh;
+    }
+
+}
+
 /* CALL SECTION */
 
 .callUs {
