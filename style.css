@@ -215,6 +215,40 @@ header {
 
 }
 
+@media (min-width: 1024px) and (orientation:portrait) {
+    .services {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start
+    }
+
+    .services h2 {
+        flex-basis: 100%;
+        padding: 5%;
+
+    }
+
+    .servicesFlexWrap {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-basis: 50%;
+    }
+
+    .servicesElm {
+        flex-basis: 100%;
+        padding: 2% 5%;
+        margin-bottom: 2%;
+    }
+
+}
+
 /* CALL SECTION */
 
 .callUs {
@@ -269,6 +303,7 @@ header {
         padding: 0 5% 0% 5%
     }
 }
+
 
 /* CONTACT */
 
