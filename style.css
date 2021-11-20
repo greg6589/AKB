@@ -44,6 +44,13 @@ header {
     }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    .logo {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
+
 /* WELCOME */
 
 .welcome {
@@ -76,6 +83,12 @@ header {
 }
 
 @media (min-width: 768px) and (orientation: portrait) {
+    .welcome .wrapper {
+        padding: 7% 10%;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
     .welcome .wrapper {
         padding: 7% 10%;
     }
@@ -127,6 +140,24 @@ header {
 
 @media (min-width: 768px) and (orientation: portrait) {
 
+    .about h2 {
+        padding: 5%;
+    }
+
+    .about p {
+        padding: 0 10% 10% 10%;
+    }
+
+    .aboutDes h2 {
+        padding: 10% 10% 5% 10%;
+    }
+
+    .aboutDes p {
+        padding: 0 10% 10% 10%;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
     .about h2 {
         padding: 5%;
     }
@@ -215,7 +246,7 @@ header {
 
 }
 
-@media (min-width: 1024px) and (orientation:portrait) {
+@media (min-width: 1024px) {
     .services {
         text-align: center;
         display: flex;
@@ -248,6 +279,8 @@ header {
     }
 
 }
+
+
 
 /* CALL SECTION */
 
@@ -304,6 +337,17 @@ header {
     }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+
+    .callUs h2 {
+        padding: 5% 5% 2% 5%;
+    }
+
+    .callUs p {
+        padding: 0 5% 0% 5%
+    }
+}
+
 
 /* CONTACT */
 
@@ -340,6 +384,20 @@ header {
 }
 
 @media (min-width: 768px) and (orientation: portrait) {
+    .contact {
+        padding-top: 15px;
+    }
+
+    .contact ul {
+        padding-bottom: 10px;
+    }
+
+    .copy {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
     .contact {
         padding-top: 15px;
     }
