@@ -79,6 +79,13 @@ header {
     padding-bottom: 10px;
 }
 
+.ques1,
+.ques2,
+.answer {
+    opacity: 0;
+    transition: 0.5s;
+}
+
 .welcome p {
     font-size: 18px;
     font-weight: 300;

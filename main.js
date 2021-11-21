@@ -1,5 +1,22 @@
 const moreBtn = document.querySelectorAll(".more");
+const questionOne = document.querySelector(".ques1");
+const questionTwo = document.querySelector(".ques2");
+const answer = document.querySelector(".answer")
 
+
+
+const displayWelcomeText = () => {
+    questionOne.style.opacity = "1";
+    setTimeout(function () {
+        questionTwo.style.opacity = "1";
+        setTimeout(function () {
+            answer.style.opacity = "1";
+        }, 1500);
+    }, 1500);
+
+}
+
+setTimeout(displayWelcomeText, 700);
 
 
 const showMore = (e) => {
