@@ -37,6 +37,27 @@ header {
     letter-spacing: 2px;
 }
 
+
+
+.langFlag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(img/polishFlag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.activeTranslation {
+    background-image: url(img/germanFlag.png);
+}
+
+
 @media (min-width: 768px) and (orientation: portrait) {
     .logo {
         padding-top: 3%;
