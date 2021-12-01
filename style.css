@@ -571,6 +571,7 @@ header {
     width: 75px;
     height: 75px;
     background-color: black;
+    cursor: pointer;
 }
 
 .navi a {
@@ -578,6 +579,7 @@ header {
     height: 75px;
     line-height: 75px;
     opacity: 0;
+    padding: 25px 0;
 }
 
 .copy {
