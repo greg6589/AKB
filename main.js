@@ -19,17 +19,18 @@ const displayWelcomeText = () => {
 setTimeout(displayWelcomeText, 700);
 
 
+
 const showMore = (e) => {
     let activeBtn = e.target;
     let elmIndex = e.target.attributes.id.value;
     let servicesElm = document.getElementById(elmIndex);
     if (activeBtn.classList.contains("activeBtn")) {
-        activeBtn.textContent = "więcej";
         servicesElm.lastElementChild.classList.remove("active")
         activeBtn.classList.remove("activeBtn");
+        activeBtn.classList.remove("activeArrow")
     } else {
         activeBtn.classList.add("activeBtn");
-        activeBtn.textContent = "mniej";
+        activeBtn.classList.add("activeArrow")
         servicesElm.lastElementChild.classList.add("active")
     }
 }
