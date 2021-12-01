@@ -27,7 +27,6 @@ let data = {
         'servicesTitle': 'Nasza usługa',
         'consulting': 'Doradztwo',
         'consultingDes': 'Po zgłoszeniu się do nas pomożemy skonfrontować Twoje oczekiwania z aktualną sytuacją na rynku aut używanych. Doradzimy również czy poszukiwany przez Ciebie samochód to możliwie najlepszy wybór wśród dostępnych marek i modeli.',
-        'more': 'więcej',
         'consultingDesMore': 'Wybór odpowiedniego modelu samochodu dopasowanego do potrzeb i oczekiwań klienta to bardzo ważna kwestia. Dzięki temu unikniemy rozczarowań w warsztacie, irytacji podczas parkowania w centrum miasta lub zaskoczenia podczas tankowania. Kwestia wyposażenia samochodu nie powinna być również obojętna ponieważ to od niej zależy nasz komfort podróżowania nowym samochodem. Służymy również profesjonalnym doradztwem w kwestii finansowania.',
         'searchTitle': 'Znalezienie auta',
         'searchDes': 'Po ustaleniu jakiego modelu mamy dla Ciebie szukać zaczynamy proces poszukiwania wybranego samochodu. Na tym etapie możesz zrezygnować z osobistego przeglądania ofert, lecz dalsze uczestniczenie w tym procesie jest również możliwe.',
