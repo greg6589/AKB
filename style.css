@@ -549,6 +549,23 @@ header {
     text-decoration: none;
 }
 
+.navi {
+    background-image: url(img/navigation.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+    width: 75px;
+    height: 75px;
+}
+
+.navi a {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    opacity: 0;
+}
+
 .copy {
     background-color: black;
     text-align: center;
