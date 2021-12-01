@@ -3,6 +3,10 @@ const content = document.querySelectorAll('html [lang]')
 
 
 const translate = () => {
+    if (flagBtn.classList.contains("activeTranslation")) {
+        flagBtn.classList.toggle('activeTranslation');
+        location.reload();
+    }
     flagBtn.classList.toggle('activeTranslation')
     const newLangAttr = flagBtn.getAttribute('language')
     content.forEach(element => {
