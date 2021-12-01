@@ -37,8 +37,6 @@ header {
     letter-spacing: 2px;
 }
 
-
-
 .langFlag {
     position: absolute;
     top: 10px;
@@ -69,6 +67,13 @@ header {
     .logo {
         padding-top: 3%;
         padding-bottom: 3%;
+    }
+
+    .langFlag {
+        top: 20px;
+        right: 20px;
+        height: 35px;
+        width: 35px;
     }
 }
 
